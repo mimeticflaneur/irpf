@@ -82,7 +82,7 @@ $$
 
 ## 4. Cuota íntegra
 
-Aplicación por tramos de la escala conjunta (estatal + autonómica media):
+Aplicación por tramos de la escala conjunta (estatal + autonómica supletoria):
 
 $$
 C_\text{íntegra} = \sum_i (BI_i - BI_{i-1}) \cdot t_i
@@ -103,8 +103,15 @@ $$
 ## 6. Deducción por SMI (art. 85.3 RIRPF, 2025-2026)
 
 En 2025 y 2026 existe una reducción específica sobre la retención calculada
-para trabajadores que cobran en el entorno del SMI. Ver [`params.py`](https://github.com/mimeticflaneur/irpf/blob/main/irpf/params.py)
-para los umbrales exactos.
+para trabajadores que cobran en el entorno del SMI:
+
+| Año  | Deducción máxima | Rango de aplicación               | Reducción lineal         |
+|------|-----------------:|-----------------------------------|--------------------------|
+| 2025 | 340,00 €         | bruto ≤ 16.576 € (plena) → 18.276 € (se agota) | −0,20 € por € sobre 16.576 € |
+| 2026 | 590,89 €         | bruto ≤ 17.094 € (plena); se agota al subir | −0,20 € por € sobre 17.094 € |
+
+Los valores de 2026 son **provisionales** hasta la publicación de la Orden
+ministerial definitiva para el ejercicio.
 
 ## 7. Límite del 43% (art. 85.3 RIRPF)
 

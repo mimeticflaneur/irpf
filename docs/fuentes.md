@@ -25,7 +25,9 @@ fórmulas de la propia ley.
     - Ley 31/2022 (LPGE 2023): actualizaciones art. 20 y escala.
     - RD-ley 8/2023 y Orden HAC/56/2024 (umbrales 2024).
     - RD-ley 1/2025 y Orden HAC/265/2025 (umbrales 2025).
-    - Proyecto/Ley de PGE 2026 y Orden equivalente (umbrales 2026).
+    - Proyecto/Ley de PGE 2026 y Orden equivalente (umbrales 2026;
+      **provisionales** hasta la publicación en el BOE de la norma
+      definitiva).
 - **Retenciones y límite del 43%**: Reglamento del IRPF (RD 439/2007),
   art. 85.3.
 

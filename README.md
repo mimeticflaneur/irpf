@@ -15,16 +15,17 @@ por inflación** (IPC dic-dic, INE) para cada ejercicio entre 2012 y 2026.
 ## Qué hay en este repo
 
 ```
-irpf/
-  inflation.py   IPC dic-dic y multiplicadores acumulados (Python puro)
-  params.py      Parámetros normativos por ejercicio (Python puro)
-  core.py        Motor de cálculo de nómina (Python puro, Pyodide-friendly)
-  batch.py       Generación masiva vía pandas/numpy
-scripts/
-  generate_excel.py    Genera el Excel integral 2012-2026
-  generate_charts.py   Genera los gráficos Plotly para la web
-docs/              Web (MkDocs Material) y hooks Pyodide
-tests/             Smoke tests del motor
+<raíz del repo>
+├── irpf/                    Paquete Python (mismo código que corre en Pyodide)
+│   ├── inflation.py         IPC dic-dic y multiplicadores acumulados (Python puro)
+│   ├── params.py            Parámetros normativos por ejercicio (Python puro)
+│   ├── core.py              Motor de cálculo de nómina (Python puro, Pyodide-friendly)
+│   └── batch.py             Generación masiva vía pandas/numpy
+├── scripts/
+│   ├── generate_excel.py    Genera el Excel integral 2012-2026
+│   └── generate_charts.py   Genera los gráficos Plotly para la web
+├── docs/                    Web (MkDocs Material) y hooks Pyodide
+└── tests/                   Smoke tests del motor
 ```
 
 El motor (`params`, `inflation`, `core`) no depende de `pandas` ni `numpy`:

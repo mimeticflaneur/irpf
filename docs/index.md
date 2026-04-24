@@ -24,9 +24,9 @@ Todo el cálculo es determinista y está en [el repositorio](https://github.com/
 
 ```bash
 pip install -r requirements.txt
-python -m scripts.generate_excel        # Excel con 15 hojas anuales + control
-python -m scripts.generate_charts       # Gráficos Plotly
-mkdocs serve                            # Web local en http://127.0.0.1:8000
+python scripts/generate_excel.py --output dist/auditoria.xlsx   # 15 hojas anuales + control
+python scripts/generate_charts.py                               # Gráficos Plotly
+mkdocs serve                                                    # Web local en http://127.0.0.1:8000
 ```
 
 ## Licencia
