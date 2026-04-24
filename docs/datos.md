@@ -29,7 +29,7 @@ adjuntando la referencia: es la única forma de mantener los datos limpios.
 
 | Año       | Empresa | Trabajador | Total |
 |-----------|--------:|-----------:|------:|
-| 2022-     | 0,00%   | 0,00%      | 0,00% |
+| ≤ 2022    | 0,00%   | 0,00%      | 0,00% |
 | 2023      | 0,50%   | 0,10%      | 0,60% |
 | 2024      | 0,58%   | 0,12%      | 0,70% |
 | 2025      | 0,67%   | 0,13%      | 0,80% |
@@ -99,7 +99,7 @@ adjuntando la referencia: es la única forma de mantener los datos limpios.
 | 2023      | 14.047,50   | 6.498       | 19.747,50   | 0           |
 | 2024-2026 | 14.852      | 7.302       | 19.747,50   | 0           |
 
-## Mínimo personal y del contribuyente
+## Mínimo personal
 
 | Año       | Mín. personal (€) |
 |-----------|------------------:|
@@ -138,3 +138,10 @@ adjuntando la referencia: es la única forma de mantener los datos limpios.
 
 > El dato de 2026 es una **estimación de trabajo**: al cerrar el año se
 > actualizará con el valor definitivo del INE.
+
+!!! warning "Parámetros 2026 provisionales"
+    Además del IPC, el resto de valores 2026 de este documento (base máxima,
+    MEI, cuota de solidaridad, umbrales del art. 20, deducción SMI, mínimo
+    exento) son **provisionales** hasta la publicación en el BOE de la LPGE
+    2026 y sus órdenes de desarrollo. Se actualizarán con la norma definitiva.
+    Detalle de cada fuente en [Fuentes oficiales](fuentes.md).
