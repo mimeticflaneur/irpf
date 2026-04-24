@@ -2,9 +2,9 @@ name: Build & Deploy
 
 on:
   push:
-    branches: [main]
+    branches: [claude/setup-inflation-module-KTnSI]
   pull_request:
-    branches: [main]
+    branches: [claude/setup-inflation-module-KTnSI]
   workflow_dispatch:
 
 permissions:
@@ -58,13 +58,13 @@ jobs:
           cp dist/*.xlsx site/downloads/
 
       - name: Upload Pages artifact
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/claude/setup-inflation-module-KTnSI'
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/claude/setup-inflation-module-KTnSI'
     needs: build
     runs-on: ubuntu-latest
     environment:
