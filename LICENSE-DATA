@@ -1,0 +1,14 @@
+Los datos, tablas, gráficos y contenido documental de este repositorio
+(incluyendo todo lo publicado bajo `docs/` y el Excel generado) están
+licenciados bajo:
+
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/deed.es
+
+Puedes compartir y adaptar los datos para cualquier uso (incluido comercial),
+siempre que cites la fuente con un enlace al repositorio original:
+
+    https://github.com/mimeticflaneur/irpf
+
+El código fuente (todos los `.py`, `.js`, `.yml`, `.css`) queda bajo la
+licencia MIT descrita en el fichero LICENSE.

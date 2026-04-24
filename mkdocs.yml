@@ -1,0 +1,68 @@
+site_name: Auditoría IRPF + SS (2012-2026)
+site_description: >-
+  Datos abiertos y metodología del cálculo de nóminas en España:
+  IRPF, Seguridad Social, MEI, cuota de solidaridad y ajuste por inflación.
+site_url: https://mimeticflaneur.github.io/irpf/
+repo_url: https://github.com/mimeticflaneur/irpf
+repo_name: mimeticflaneur/irpf
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/calculadora.js
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+
+nav:
+  - Inicio: index.md
+  - Metodología: metodologia.md
+  - Datos y parámetros: datos.md
+  - Gráficos: graficos.md
+  - Calculadora: calculadora.md
+  - Fuentes oficiales: fuentes.md
+
+hooks:
+  - docs/_hooks/copy_pyodide_assets.py
